@@ -11,12 +11,7 @@ namespace Kiwiland.DataAccess
     public class registerManger
     {
         RegisterDbContext regDb = new RegisterDbContext();
-        //private readonly ILogger<registerManger> _regManager;
-
-        //public registerManger(ILogger<registerManger> regManager)
-        //{
-        //    this._regManager=regManager;
-        //}
+       //kasdasd
         bool Success = false;
 
         public IEnumerable<TestRegister> GetAllAccomodation()
